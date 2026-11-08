@@ -1,0 +1,231 @@
+{
+ "goal": {
+  "mission": "Understand how to consistently go viral on YouTube Shorts.",
+  "why": "My life changes when I can do this: more people see me, relationships, long-term money.",
+  "success": [
+   "2 of 3 posts reach 10K+ views (per three-post experiment)",
+   "68–70% viewer engagement",
+   "Positive comment signals"
+  ],
+  "method": "Run 3-post experiments. Experiment, reflect, research, experiment again.",
+  "best": "Best engagement so far: 64.6% (Experiment 1, short 1)",
+  "target_engagement": 68
+ },
+ "experiments": [
+  {
+   "id": "exp-3",
+   "title": "Experiment 3",
+   "status": "planned",
+   "summary": "Add a readable title in the first frame, plus a clear hook shot.",
+   "hypothesis": "A big, quick-to-read title (about 0.2 seconds to land) plus an attention-grabbing, cohesive first shot will make the content easier to see and raise views.",
+   "method": [
+    "White background, black text title card",
+    "Candidate titles: \"Jerry will never forgive me for what I'm about to do...\" / \"Jerry forgive me for what I'm about to do...\"",
+    "Keep the scene clear and comprehensible",
+    "Keep the context readable and quick"
+   ],
+   "photos": []
+  },
+  {
+   "id": "reflections-1",
+   "title": "Reflections and research after Experiment 2",
+   "status": "done",
+   "summary": "Content engages once watched. The problem is getting people to see it: add context fast.",
+   "results": [
+    "Felt more like a skit than a normal video",
+    "Notes and research made it better",
+    "Videos need a title giving context. Titles matter a lot on YouTube: must have one and it must be easy to see",
+    "You have about 0.2 seconds to show a big title",
+    "Sometimes the title plus the video is enough",
+    "Focus on making the first frame digestible",
+    "My content is engaging when people watch, but I need to make it easier for people to see it"
+   ],
+   "next_steps": [
+    "Add context",
+    "Make sure the context is readable and quick",
+    "Try title + hook + attention-grabbing, clear, cohesive shot (Experiment 3)"
+   ],
+   "photos": [
+    {
+     "file": "photos/reflections.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
+   "id": "exp-2",
+   "title": "Experiment 2",
+   "status": "invalidated",
+   "summary": "Hulk dummy skits. Results invalid: all three posts were on a different account/platform.",
+   "hypothesis": "A funny or attention-grabbing scene, with me relating casually as the main subject, that is comprehensible and clear, will perform.",
+   "method": [
+    "16 seconds in the Roblox Dummy Engine",
+    "Funny or attention-grabbing scene, me relating casually as main subject",
+    "Scene is comprehensible and clear what's happening",
+    "Concept: noob dummy goes Hulk"
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "Dummy goes Hulk and throws another. I tell Jefe: \"Are you mad? I ate the last slice of pizza.\""
+    },
+    {
+     "n": 2,
+     "concept": "I blow Jerry out of the flames and say he can go back to community college now."
+    },
+    {
+     "n": 3,
+     "concept": "I blow Hulk to space and he explodes. (An earlier idea was crossed out.)"
+    }
+   ],
+   "results": [
+    "Results invalidated because all posts were on a different platform/account",
+    "Can't use a different account again"
+   ],
+   "notes": [
+    "Felt like a skit. I was getting tired and not super into it, but it felt much clearer for the audience",
+    "Made me wonder if it's good content for the audience",
+    "I need to be 100% there. It's more about them: how can I make them understand it, laugh, enjoy it more"
+   ],
+   "conclusion": "Clearer for the audience, but results can't be trusted. Don't switch accounts again.",
+   "photos": [
+    {
+     "file": "photos/exp2-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
+   "id": "exp-1",
+   "title": "Experiment 1",
+   "status": "refine",
+   "summary": "Dummy-in-danger scenes. Spider did best. Refine and rerun.",
+   "hypothesis": "A funny, attention-grabbing scene + a sound of exclamation + a moment or relatable line will make my post go viral. Target length 16–18 seconds.",
+   "method": [
+    "Realistic Roblox engine",
+    "Time length: 16 seconds",
+    "My face showing",
+    "A dummy is involved"
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "Dummy in spider pit. \"Samantha forgot to wash the dishes.\"",
+     "engagement": "64.6%"
+    },
+    {
+     "n": 2,
+     "concept": "Dummy with the shark. \"Tom, can you even swim?\" [concept names unclear in notes; trampoline also mentioned]",
+     "engagement": "35.7% [unclear]"
+    },
+    {
+     "n": 3,
+     "concept": "Dummy on the ship. \"Joe invested in SpaceX.\" [notes also mention rocket explosion]",
+     "engagement": "51.9%"
+    }
+   ],
+   "results": [
+    "Spider did best. Assumption: it was eye-grabbing just before the climax",
+    "Trampoline did second best but didn't perform super well: the first second shows the dummy in the sky with no context, so it's easy to scroll. The first frame has to explain before the climax, with just enough time",
+    "Last place was the rocket explosion. Assumed it was too close to the climax and watchers didn't understand what was happening"
+   ],
+   "insights": {
+    "do": [
+     "Eye-grabbing scene before the climax (but not too close) that explains the clip",
+     "The scene should be comprehensible"
+    ],
+    "avoid": [
+     "No context scene near, or too close to, the climax",
+     "Confusing scene where it's not clear what's happening"
+    ]
+   },
+   "notes": [
+    "Easily understood silly premise (a spider is easily understood, a figure launching into space not so much)",
+    "Needs a bit of build-up before the climax, enough to understand the concept",
+    "Side list, context unclear: hotel in NYC 3 days; say I'm staying with a friend; redo wardrobe (Uniqlo)",
+    "Experiment idea: grab dummy after growth and fly away with them"
+   ],
+   "conclusion": "Refine and rerun.",
+   "photos": [
+    {
+     "file": "photos/exp1-notes.jpg",
+     "caption": "Original notes"
+    },
+    {
+     "file": "photos/exp1-insights.jpg",
+     "caption": "Insights"
+    }
+   ]
+  }
+ ],
+ "ai_insights": [
+  {
+   "date": "2026-11-08",
+   "text": "Treat the spider-did-best conclusions as hypotheses. One post per concept can't separate premise from luck."
+  },
+  {
+   "date": "2026-11-08",
+   "text": "Experiment 3: change only the title card, keep the scene the same, so the result is clean."
+  },
+  {
+   "date": "2026-11-08",
+   "text": "Log swipe-away rate for every short. Your first-frame idea should move that number most."
+  },
+  {
+   "date": "2026-11-08",
+   "text": "A title like \"Jerry will never forgive me...\" only gives context to people who already know Jerry."
+  }
+ ],
+ "checklist": [
+  {
+   "type": "must",
+   "text": "Eye-grabbing scene before the climax (but not too close) that explains the clip",
+   "source": "exp-1"
+  },
+  {
+   "type": "must",
+   "text": "Scene is comprehensible and it's clear what's happening",
+   "source": "exp-2"
+  },
+  {
+   "type": "must",
+   "text": "Funny or attention-grabbing scene with me relating casually as the main subject",
+   "source": "exp-2"
+  },
+  {
+   "type": "must",
+   "text": "A title that gives context and is easy to see (about 0.2 seconds to land)",
+   "source": "reflections-1"
+  },
+  {
+   "type": "must",
+   "text": "First frame is digestible",
+   "source": "reflections-1"
+  },
+  {
+   "type": "helps",
+   "text": "A bit of build-up before the climax, enough to understand the concept",
+   "source": "exp-1"
+  },
+  {
+   "type": "helps",
+   "text": "Easily understood silly premise (a spider is, a figure launching into space isn't)",
+   "source": "exp-1"
+  },
+  {
+   "type": "helps",
+   "text": "Notes and research done before making it",
+   "source": "reflections-1"
+  },
+  {
+   "type": "helps",
+   "text": "Context that is readable and quick (white background, black text)",
+   "source": "reflections-1"
+  },
+  {
+   "type": "helps",
+   "text": "Me being 100% there, thinking about how the audience understands and enjoys it",
+   "source": "exp-2"
+  }
+ ]
+}

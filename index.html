@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Experiments</title>
+<style>
+:root{--ink:#37352f;--mute:#9b9a97;--line:rgba(55,53,47,.09);--hover:#f1f1ef;--callout:#f7f6f3;box-sizing:border-box;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif;padding-top:env(safe-area-inset-top,0);-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:56px 22px 120px}
+.icon{font-size:64px;line-height:1;margin-bottom:12px}
+h1{font-size:38px;line-height:1.15;font-weight:700;letter-spacing:-.02em;margin:0 0 20px}
+h2{font-size:22px;font-weight:600;margin:32px 0 6px;letter-spacing:-.01em}
+h3{font-size:14px;font-weight:500;color:var(--mute);margin:24px 0 4px}
+p{margin:4px 0 8px}ul{margin:4px 0 8px;padding-left:22px}li{margin:3px 0}
+.callout{display:flex;gap:12px;background:var(--callout);border-radius:4px;padding:16px;margin:8px 0 24px}
+.callout .e{font-size:22px;line-height:1.3}.callout p{margin:0 0 6px}.callout .m{color:var(--mute);font-size:15px;margin:0}
+.todo{display:flex;gap:10px;align-items:flex-start;padding:4px 0}
+.todo i{flex:none;width:16px;height:16px;border:1.5px solid var(--ink);border-radius:3px;margin-top:5px}
+hr{border:0;border-top:1px solid var(--line);margin:28px 0}
+.row{display:flex;gap:10px;align-items:flex-start;padding:10px 8px;margin:0 -8px;border-radius:4px;text-decoration:none;color:inherit}
+.row:hover,.row:active{background:var(--hover)}
+.row .t{font-weight:500}.row .s{color:var(--mute);font-size:14px;display:block}
+.tag{display:inline-block;font-size:13px;line-height:1.4;padding:0 7px;border-radius:3px;background:#e3e2e0;margin-left:6px;font-weight:400}
+.t-planned{background:#e3e2e0}.t-running{background:#d3e5ef}.t-done{background:#dbeddb}.t-worked{background:#dbeddb}.t-refine{background:#fdecc8}.t-invalidated{background:#ffe2dd}.t-failed{background:#ffe2dd}.t-inconclusive{background:#e8deee}
+.prop{display:flex;gap:16px;font-size:14px;padding:4px 0}.prop span:first-child{width:80px;color:var(--mute)}
+.short{border-left:3px solid var(--ink);padding:2px 0 2px 14px;margin:10px 0}.short span{color:var(--mute);font-size:14px}
+.cols{display:grid;gap:0 28px;grid-template-columns:1fr 1fr}@media(max-width:480px){.cols{grid-template-columns:1fr}}
+.back{font-size:14px;color:var(--mute);text-decoration:none;display:inline-block;margin-bottom:28px}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0)}
+nav a{flex:1;text-align:center;padding:14px 4px;font-size:14px;text-decoration:none;color:var(--mute)}nav a.on{color:var(--ink);font-weight:600}
+a:focus-visible{outline:2px solid #2383e2;outline-offset:2px}
+.todo{cursor:pointer}.todo.on i{background:var(--ink);box-shadow:inset 0 0 0 2px #fff}.todo.on span{color:var(--mute);text-decoration:line-through}.src{display:block;font-size:13px;color:var(--mute);text-decoration:none}.m{color:var(--mute);font-size:15px}.ph{width:100%;border-radius:4px;border:1px solid var(--line);margin:8px 0}</style></head><body><main id="app"></main><nav id="nav"></nav>
+<script>
+let G={},E=[],C=[];
+const TABS=[["plan","Plan"],["experiments","Experiments"],["checklist","Checklist"]];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ul=a=>a&&a.length?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+const L={planned:"Planned",running:"Running",done:"Done",refine:"Refine and rerun",invalidated:"Results invalid",worked:"Worked",failed:"Failed",inconclusive:"Inconclusive"};
+const tag=s=>`<span class="tag t-${esc(s)}">${esc(L[s]||s)}</span>`;
+async function load(){
+ try{const d=await (await fetch("data/experiments.json?"+Date.now())).json();G=d.goal||{};E=d.experiments||[];C=d.checklist||[];}
+ catch(e){app.innerHTML="<p>Could not load data/experiments.json.</p>";return}
+ route();}
+function route(){
+ const h=decodeURIComponent(location.hash.slice(1))||"plan";
+ const e=E.find(x=>x.id===h);const tab=h==="checklist"?"checklist":h==="experiments"||e?"experiments":"plan";
+ nav.innerHTML=TABS.map(([k,n])=>`<a href="#${k}" class="${k===tab?"on":""}">${n}</a>`).join("");
+ app.innerHTML=e?sheet(e):tab==="plan"?plan():tab==="checklist"?checklist():experiments();scrollTo(0,0);}
+function sec(t,c){return c&&(!Array.isArray(c)||c.length)?`<h2>${t}</h2>${Array.isArray(c)?ul(c):`<p>${esc(c)}</p>`}`:""}
+function plan(){
+ return `<div class="icon">🎯</div><h1>${esc(G.mission)}</h1>
+ <h2>Success criteria</h2>${(G.success||[]).map(s=>`<div class="todo"><i></i><span>${esc(s)}</span></div>`).join("")}`;}
+const ck=k=>{try{return localStorage.getItem("chk:"+k)==="1"}catch(e){return false}};
+function tog(el){const k=el.dataset.k,on=!el.classList.contains("on");el.classList.toggle("on",on);try{on?localStorage.setItem("chk:"+k,"1"):localStorage.removeItem("chk:"+k)}catch(e){}}
+function checklist(){
+ const grp=(t,ty)=>{const r=C.filter(c=>c.type===ty);return r.length?`<h2>${t}</h2>${r.map(c=>`<div class="todo ${ck(c.text)?"on":""}" data-k="${esc(c.text)}" onclick="tog(this)" role="checkbox" tabindex="0"><i></i><span>${esc(c.text)}<a class="src" href="#${encodeURIComponent(c.source||"")}" onclick="event.stopPropagation()">${esc((E.find(e=>e.id===c.source)||{}).title||"")}</a></span></div>`).join("")}`:""};
+ return `<div class="icon">✅</div><h1>Checklist</h1><p class="m">Tap to check off before you post. Grows as experiments teach us more.</p>${grp("Content must have","must")}${grp("Helps make better content","helps")}`;}
+function experiments(){return `<div class="icon">🧪</div><h1>Experiments</h1><hr>${E.map(e=>`<a class="row" href="#${encodeURIComponent(e.id)}"><span>📄</span><span><span class="t">${esc(e.title)}</span>${tag(e.status)}<span class="s">${esc(e.summary||"")}</span></span></a>`).join("")}`;}
+function sheet(e){const i=e.insights;
+ return `<a class="back" href="#experiments">← Experiments</a><div class="icon">📄</div><h1>${esc(e.title)}</h1>
+ <div class="prop"><span>Status</span><span>${tag(e.status).replace(' class="tag',' style="margin:0" class="tag')}</span></div>${e.date?`<div class="prop"><span>Date</span><span>${esc(e.date)}</span></div>`:""}<hr>
+ ${sec("Hypothesis",e.hypothesis)}${sec("Method",e.method)}
+ ${e.shorts?.length?`<h2>Posts</h2>${e.shorts.map(s=>`<div class="short"><span>Short ${s.n}${s.views?" · "+esc(s.views)+" views":""}${s.engagement?" · "+esc(s.engagement)+" engagement":""}${s.swipe_away?" · "+esc(s.swipe_away)+" swipe-away":""}</span><br>${esc(s.concept)}</div>`).join("")}`:""}
+ ${sec("Results",e.results)}${i?`<div class="cols"><div>${sec("Do",i.do)}</div><div>${sec("Avoid",i.avoid)}</div></div>`:""}
+ ${sec("Notes",e.notes)}${sec("Conclusion",e.conclusion)}${sec("Next steps",e.next_steps)}${(e.photos||[]).length?`<h2>Original notes</h2>${e.photos.map(p=>`<a href="${esc(p.file)}" target="_blank"><img class="ph" src="${esc(p.file)}" alt="${esc(p.caption||e.title)}" loading="lazy"></a>`).join("")}`:""}`;}
+addEventListener("hashchange",route);load();
+</script></body></html>
