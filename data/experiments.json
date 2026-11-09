@@ -13,6 +13,39 @@
  },
  "experiments": [
   {
+   "id": "research-4",
+   "title": "Experiment 4 Research: Project Supreme",
+   "status": "done",
+   "date": "2026-11-09",
+   "summary": "Project Supreme Research: title, shortform content, and longform content.",
+   "notes": [
+    "Title: tells the coolest part of the video",
+    "Title: links to longform content",
+    "Views to likes ratio is odd",
+    "Make it a challenge with high stakes",
+    "Shortform Content: most are mini challenges",
+    "Shortform Content: some start with his face",
+    "His comment section feels like: even though his content is engaging there isn't [unclear] a relationship",
+    "Zoom in on his Face Intro",
+    "Shortform Content pt. 2: always movement in first 03 seconds → face comes into frame",
+    "Video starts with his face + gentle movement + sound and then it goes into the content",
+    "Reminds me of a mister beast video but I don't feel his investment and presence in his community",
+    "Longform Content: too stimulating – def makes content for kids – annoying act",
+    "Feels like he hired a script writer – think he makes content more for kids",
+    "I think older robloxer could def be under served",
+    "Think his longform has better engagement + community",
+    "Every 3 seconds something changed",
+    "Video lengths: 18:51 24:33 13:07 → avg.",
+    "Avg time: 18:50"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp4-research.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "reflections-4",
    "title": "Experiment 4 Reflection",
    "status": "done",
@@ -303,6 +336,11 @@
    "type": "must",
    "text": "Emotionally Dense Image: Like spider",
    "source": "exp-4"
+  },
+  {
+   "type": "helps",
+   "text": "Make it a challenge with high stakes",
+   "source": "research-4"
   }
  ]
 }
