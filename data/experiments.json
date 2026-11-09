@@ -13,6 +13,46 @@
  },
  "experiments": [
   {
+   "id": "exp-4",
+   "title": "Experiment 4: Survive Your Ideas Video +",
+   "status": "planned",
+   "summary": "ANYTHING I TYPE BECOMES REAL",
+   "hypothesis": "We can make our \"survive your ideas\" content go viral if we execute what's been working.",
+   "method": [
+    "Attention grabbing scene, that is clear, intelligible",
+    "Emotionally Dense Image: Like spider",
+    "Build up before the climax, enough to understand the concept."
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "TIKTOK: Bear Spawn + Chaos"
+    },
+    {
+     "n": 2,
+     "concept": "TIKTOK 2: TREX Spawn + Chaos"
+    },
+    {
+     "n": 3,
+     "concept": "TIKTOK 3: Sword Spawn + Chaos"
+    }
+   ],
+   "insights": {
+    "avoid": [
+     "First 0.5 snippet is incomprehensible"
+    ]
+   },
+   "notes": [
+    "Crossed-out line beneath DO NOT DO: [unclear]"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp4-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "exp-3",
    "title": "Experiment 3",
    "status": "planned",
@@ -203,9 +243,9 @@
    "source": "reflections-1"
   },
   {
-   "type": "helps",
-   "text": "A bit of build-up before the climax, enough to understand the concept",
-   "source": "exp-1"
+   "type": "must",
+   "text": "Build up before the climax, enough to understand the concept.",
+   "source": "exp-4"
   },
   {
    "type": "helps",
@@ -226,6 +266,11 @@
    "type": "helps",
    "text": "Me being 100% there, thinking about how the audience understands and enjoys it",
    "source": "exp-2"
+  },
+  {
+   "type": "must",
+   "text": "Emotionally Dense Image: Like spider",
+   "source": "exp-4"
   }
  ]
 }
