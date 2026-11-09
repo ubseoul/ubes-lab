@@ -13,6 +13,41 @@
  },
  "experiments": [
   {
+   "id": "research-4-coryxkenshin",
+   "title": "Post Experiment 4 Research: Cory X Kenshin",
+   "status": "done",
+   "summary": "Cory X Kenshin research: shortform and longform.",
+   "notes": [
+    "Shortform: he has no shortform!!!",
+    "Like ever?",
+    "He doesn't need him",
+    "Longform: him being funny reacting to scary videogames",
+    "He shows alot of his personality and his fans love him.",
+    "His videos are really long (59:21, 2:34:43)",
+    "Very minimal editing, face in the top right corner",
+    "Funny reactions get zoom in",
+    "I think I could do this...",
+    "Very little cursing",
+    "Every aspect is very engaging him being him",
+    "Funny memes at genuinely funny times",
+    "Five nights at freddy playthrough for me"
+   ],
+   "insights": {
+    "avoid": [
+     "No more ai thumbnails"
+    ]
+   },
+   "next_steps": [
+    "No more ai thumbnails – replace them ASAP"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp4-research-coryxkenshin.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "research-4-kreekcraft",
    "title": "Post Experiment 4 Research: Kreekcraft",
    "status": "done",
@@ -389,6 +424,11 @@
    "type": "helps",
    "text": "Perfect loop easy to steal time",
    "source": "research-4-kreekcraft"
+  },
+  {
+   "type": "helps",
+   "text": "Funny memes at genuinely funny times",
+   "source": "research-4-coryxkenshin"
   }
  ]
 }
