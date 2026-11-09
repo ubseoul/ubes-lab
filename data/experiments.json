@@ -13,6 +13,44 @@
  },
  "experiments": [
   {
+   "id": "research-4-kreekcraft",
+   "title": "Post Experiment 4 Research: Kreekcraft",
+   "status": "done",
+   "date": "2026-11-09",
+   "summary": "Kreekcraft Research: title, shortform content, and longform content.",
+   "notes": [
+    "Title: simple",
+    "Title: kind of fear inducing",
+    "Title: critiquing roblox",
+    "Title: no more than 10 words",
+    "Shortform Content: uses face as hook",
+    "Then movement",
+    "Actually a perfectly smooth loop",
+    "Times: 11s, 14s",
+    "He's a streamer",
+    "More personality",
+    "Perfect loop easy to steal time",
+    "This dude has a community",
+    "More personality leaning",
+    "Roblox news?",
+    "Longform Content: focused Being more of a personality",
+    "Uses his face as the hook",
+    "Lengths: 9:07, 12:22, 13:09",
+    "Honestly not terrible content"
+   ],
+   "insights": {
+    "avoid": [
+     "Really limit AI usage for photos"
+    ]
+   },
+   "photos": [
+    {
+     "file": "photos/exp4-research-kreekcraft.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "research-4",
    "title": "Experiment 4 Research: Project Supreme",
    "status": "done",
@@ -341,6 +379,16 @@
    "type": "helps",
    "text": "Make it a challenge with high stakes",
    "source": "research-4"
+  },
+  {
+   "type": "must",
+   "text": "Title: no more than 10 words",
+   "source": "research-4-kreekcraft"
+  },
+  {
+   "type": "helps",
+   "text": "Perfect loop easy to steal time",
+   "source": "research-4-kreekcraft"
   }
  ]
 }
