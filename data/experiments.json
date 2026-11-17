@@ -13,6 +13,38 @@
  },
  "experiments": [
   {
+   "id": "exp-5",
+   "title": "Anime Ragdoll World 1",
+   "status": "planned",
+   "summary": "Repeat what made the spider short work, making it more attention grabbing and engaging.",
+   "hypothesis": "By repeating what made the spider short work & making it more attention grabbing and engaging we can achieve similar if not better results.",
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "I say \"michelle you should of never spoiled the avengers\" → drops dummy into pit"
+    },
+    {
+     "n": 2,
+     "concept": "I say \"jerry you said even you could beat Goku so show me\" → throw him in → he's then thrown back on → \"im like Goku!\""
+    },
+    {
+     "n": 3,
+     "concept": "Drag the dummy into ape [unclear] → say \"jim don't fuck with me\" → he's destroyed → I say \"gym never fuck with me\""
+    }
+   ],
+   "notes": [
+    "The three post concepts are labeled Experiment 1, Experiment 2, and Experiment 3 on the sheet.",
+    "Unlabeled at bottom: 6.",
+    "Unlabeled checked times: 6:30 ✓; 8:30 ✓; 10:30 ✓; 12:30 ✓"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp5-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "research-4-coryxkenshin",
    "title": "Post Experiment 4 Research: Cory X Kenshin",
    "status": "done",
