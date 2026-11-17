@@ -13,6 +13,42 @@
  },
  "experiments": [
   {
+   "id": "exp-6",
+   "title": "Anime Ragdoll World 2",
+   "status": "planned",
+   "summary": "Attention grabbing, easily seen first scene + funny meme and skit.",
+   "hypothesis": "Attention grabbing, easily seen first scene + hit with funny meme and skit will lead to higher views, people playing game.",
+   "method": [
+    "Control variables: 16 seconds",
+    "Skit with Jerry",
+    "Attention grabbing first frame",
+    "Easily understood immediately first frame"
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "Frame of Titan + rasen shuriken hitting wall + Jerry is hit and killed"
+    },
+    {
+     "n": 2,
+     "concept": "Dummys at cafe + rasen shuriken + them flying everywhere"
+    },
+    {
+     "n": 3,
+     "concept": "Naruto Dummy hit with rasengan zoomed in + another dummy hit with rasen shuriken + another dummy hit w genjutsu"
+    }
+   ],
+   "notes": [
+    "The three post concepts are labeled Experiment 1, Experiment 2, and Experiment 3 on the sheet."
+   ],
+   "photos": [
+    {
+     "file": "photos/exp6-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "exp-5",
    "title": "Anime Ragdoll World 1",
    "status": "planned",
