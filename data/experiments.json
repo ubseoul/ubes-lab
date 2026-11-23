@@ -13,9 +13,48 @@
  },
  "experiments": [
   {
+   "id": "reflections-stw-1",
+   "title": "prince ube clips STW experiment 1 results & Research for Exp 2",
+   "status": "done",
+   "date": "2026-11-23",
+   "summary": "No significant lift in STW rate; research and plan for Experiment 2.",
+   "results": [
+    "No significant lift in STW rate from shorts – higher than expected likes and views.",
+    "Higher than expected likes and views do not indicate virality.",
+    "Posts as of Nov 23 @ 10:27am are still being pushed."
+   ],
+   "notes": [
+    "Movement within the first 1-3 seconds, specifically when shaking game & face portions have limited to no effect on STW percentage. Hypothesis needs further future research & study.",
+    "Success: Checklist to hit 70% median",
+    "Script: write 3+ hook versions, must pass [unclear]’s tests: works as a title, clear with sound off, 5th-grade wording, one idea only.",
+    "Opening: Open mid action (no loading screen no nothing)",
+    "3-7 words, bold outlined words in the top or middle section, away from bottom 39% and right side buttons",
+    "Sound: 5-10 spoken word promise + impact sfx that matches the text.",
+    "Conflict promised in second 1"
+   ],
+   "insights": {
+    "avoid": [
+     "No loading screen no nothing",
+     "Cut every single idle moment"
+    ]
+   },
+   "next_steps": [
+    "Let's plan scenarios and first frames, we did that with spider video",
+    "Research goals are running 3 experiments with research optimized methods",
+    "Script & stage shorts openings",
+    "Study outlier Roblox shorts muted first 2 seconds muted"
+   ],
+   "photos": [
+    {
+     "file": "photos/stw1-results-exp2-research.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "exp-8",
    "title": "prince ube clips STW experiment (70% average) Experiment 1",
-   "status": "running",
+   "status": "inconclusive",
    "summary": "Test shake / movement for the intro; success is average STW of 70% across the 3 videos.",
    "hypothesis": "Utilizing a shake / movement for the intro will improve stayed to watch rates by having the movement stop the viewers and have them watch.",
    "method": [
@@ -44,7 +83,8 @@
     "Post 2: 1:28 am",
     "Post 3: 12:23 pm; no concept written",
     "While Experimenting Thoughts & Research: Initial text onboarding + movement + good framing sound like a good next experiment → maybe different description text",
-    "I am seeing majority of top posts have text to explain context (like 70-80% of posts.)"
+    "I am seeing majority of top posts have text to explain context (like 70-80% of posts.)",
+    "Movement within the first 1-3 seconds, specifically when shaking game & face portions have limited to no effect on STW percentage. Hypothesis needs further future research & study."
    ],
    "next_steps": [
     "Do future experiment with blur + context giving caption: does that improve STW",
@@ -56,8 +96,18 @@
     {
      "file": "photos/exp8-notes.jpg",
      "caption": "Original notes"
+    },
+    {
+     "file": "photos/stw1-results-exp2-research.jpg",
+     "caption": "Original notes"
     }
-   ]
+   ],
+   "results": [
+    "No significant lift in STW rate from shorts – higher than expected likes and views.",
+    "Higher than expected likes and views do not indicate virality.",
+    "Posts as of Nov 23 @ 10:27am are still being pushed."
+   ],
+   "conclusion": "Hypothesis needs further future research & study."
   },
   {
    "id": "exp-7",
@@ -612,6 +662,46 @@
    "type": "helps",
    "text": "Read at 5th grade level or below",
    "source": "exp-8"
+  },
+  {
+   "type": "must",
+   "text": "Write 3+ hook versions",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "Works as a title",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "Clear with sound off",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "One idea only",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "Open mid action",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "3-7 words, bold outlined words in the top or middle section, away from bottom 39% and right side buttons",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "5-10 spoken word promise + impact sfx that matches the text",
+   "source": "reflections-stw-1"
+  },
+  {
+   "type": "must",
+   "text": "Conflict promised in second 1",
+   "source": "reflections-stw-1"
   }
  ]
 }
