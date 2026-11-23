@@ -13,6 +13,53 @@
  },
  "experiments": [
   {
+   "id": "exp-8",
+   "title": "prince ube clips STW experiment (70% average) Experiment 1",
+   "status": "running",
+   "summary": "Test shake / movement for the intro; success is average STW of 70% across the 3 videos.",
+   "hypothesis": "Utilizing a shake / movement for the intro will improve stayed to watch rates by having the movement stop the viewers and have them watch.",
+   "method": [
+    "Face – square blur",
+    "Game – mini zoom",
+    "Control Variables: 13 - 20 seconds, engaging first frame, ragdoll game",
+    "Blur + slight sound effect"
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "Dummy shocked with taser"
+    },
+    {
+     "n": 2,
+     "concept": "Dummy eaten by bear"
+    },
+    {
+     "n": 3
+    }
+   ],
+   "notes": [
+    "Success: Success looks like the average STW is 70% across the 3 Videos",
+    "Pre-Notes & Thoughts: We should keep the same effects and Game constant",
+    "Post 1: 10:23 pm",
+    "Post 2: 1:28 am",
+    "Post 3: 12:23 pm; no concept written",
+    "While Experimenting Thoughts & Research: Initial text onboarding + movement + good framing sound like a good next experiment → maybe different description text",
+    "I am seeing majority of top posts have text to explain context (like 70-80% of posts.)"
+   ],
+   "next_steps": [
+    "Do future experiment with blur + context giving caption: does that improve STW",
+    "Research based trial: open on result, 5-7 words of bold, high contrast text",
+    "Video text should work as longform title & thumbnail",
+    "Read at 5th grade level or below"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp8-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "exp-7",
    "title": "Anime Ragdoll World Experiment 2",
    "status": "planned",
@@ -550,6 +597,21 @@
    "type": "helps",
    "text": "Funny memes at genuinely funny times",
    "source": "research-4-coryxkenshin"
+  },
+  {
+   "type": "helps",
+   "text": "Open on result, 5-7 words of bold, high contrast text",
+   "source": "exp-8"
+  },
+  {
+   "type": "helps",
+   "text": "Video text should work as longform title & thumbnail",
+   "source": "exp-8"
+  },
+  {
+   "type": "helps",
+   "text": "Read at 5th grade level or below",
+   "source": "exp-8"
   }
  ]
 }
