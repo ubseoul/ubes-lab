@@ -13,6 +13,55 @@
  },
  "experiments": [
   {
+   "id": "exp-7",
+   "title": "Anime Ragdoll World Experiment 2",
+   "status": "planned",
+   "summary": "Copy what worked for the Realistic Ragdoll Short; six creature concepts.",
+   "hypothesis": "Copying what worked for the Realistic Ragdoll Short could help us build a youtube audience and audience for our videogames.",
+   "method": [
+    "Control Variables: Second 0 Visual Disruption → attention is grabbed immediately",
+    "Pose a Open Question – \"samantha ... you didn't do th[unclear]\"",
+    "Early Cut – cut the video before the loop is over – the split second the high note occurs"
+   ],
+   "shorts": [
+    {
+     "n": 1,
+     "concept": "Exact same as last one – spider wraps dummy in a cocoon then dummy falls."
+    },
+    {
+     "n": 2,
+     "concept": "Current existing snake animation"
+    },
+    {
+     "n": 3,
+     "concept": "Massive centipede chases dummy and then dummy is grabbed by arms and exploded into pieces. Chase + whole loop should take 14–16 seconds, from when dummy is dropped."
+    },
+    {
+     "n": 4,
+     "concept": "Cockroach chases dummy for a bit when dropped in grabs dummy and starts getting [unclear] and shaking him then he explodes"
+    },
+    {
+     "n": 5,
+     "concept": "Dummy is dropped in with massive rat, dummy is chased then brings out cheese throws it at rat, rat eats cheese then hops on dummy bites grabs and dummy explodes"
+    },
+    {
+     "n": 6,
+     "concept": "Dummy is dropped in with butterfly. Butterfly is massive and chases dummy, wraps him up in a cocoon, dummy bursts out with wings then explodes"
+    }
+   ],
+   "notes": [
+    "Relationship to the existing \"Anime Ragdoll World 2\" entry is unconfirmed; saved separately as requested.",
+    "The six post concepts are labeled Experiment 1 through Experiment 6 on the sheet.",
+    "Unlabeled margin numbers: [unclear]"
+   ],
+   "photos": [
+    {
+     "file": "photos/exp7-notes.jpg",
+     "caption": "Original notes"
+    }
+   ]
+  },
+  {
    "id": "exp-6",
    "title": "Anime Ragdoll World 2",
    "status": "planned",
